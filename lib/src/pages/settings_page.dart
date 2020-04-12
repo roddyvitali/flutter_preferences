@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:preferences/src/share_preferences/preferences_user.dart';
+import 'package:preferences/src/shared_preferences/preferences_user.dart';
 import 'package:preferences/src/widgets/menu_widget.dart';
 
 class SettingsPage extends StatefulWidget {
