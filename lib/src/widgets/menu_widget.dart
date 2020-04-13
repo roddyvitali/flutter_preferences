@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:preferences/src/pages/home_page.dart';
+import 'package:preferences/src/pages/people_page.dart';
 import 'package:preferences/src/pages/settings_page.dart';
 
 class MenuWidget extends StatelessWidget {
@@ -30,7 +31,9 @@ class MenuWidget extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.people, color: Colors.blue),
             title: Text('People'),
-            onTap: () {},
+            onTap: () {
+              Navigator.pushReplacementNamed(context, PeoplePage.routeName);
+            },
           ),
           ListTile(
             leading: Icon(Icons.settings, color: Colors.blue),
